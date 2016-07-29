@@ -1,0 +1,4 @@
+nitrate	0.0
+tau	3.0
+gamma	0.1
+lambda	0.1

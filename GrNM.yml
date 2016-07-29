@@ -1,0 +1,25 @@
+---
+
+model:
+  - name: GrNM
+    driver: ModelDriver
+    args: 
+      - matlab
+      - GrNM.m
+
+inputs:
+  - name: GrNM_input1
+    driver: FileInputDriver
+    args: Input/GrNM_input.txt
+  - name: GrNM_static1
+    driver: FileInputDriver
+    args: Input/GrNM_static1.mat
+  - name: GrNM_static2
+    driver: FileInputDriver
+    args: Input/GrNM_static2.mat
+
+
+outputs:
+  - name: GrNM_output
+    driver: FileOutputDriver
+    args: Output/GrNM_output.txt

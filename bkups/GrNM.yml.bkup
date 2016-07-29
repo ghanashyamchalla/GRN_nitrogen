@@ -1,0 +1,37 @@
+kind: model
+apiVersion: v1
+metadata:
+  name: GrNM
+
+# driver: PythonCaller, MatlabCaller, CPPCaller (c/c++)
+spec:
+  driver: MatlabCaller
+  function: 
+    - name: GrNM.m
+    - input:
+      queue: GrNMInputQueue
+    - output:
+      queue: GrNMOutputQueue
+
+# Options are "out of band" user selected options - things selected by hand (or GUI).
+  options:
+    - nitrogen_concentration_mM:
+      default: "1.0"
+      range:
+        - low: "0.0"
+        - high: "1.0"
+    - Dynamic_Error_weight_gamma:
+      default: 0.1
+      range:
+        - low: 0.0
+        - high: 0.5
+    - L1_regularization_coefficient_lambda:
+      default: 0.1
+      range:
+        - low: 0.0
+        - high: 1.0
+    - Kinetic_time_coefficient_tau:
+      default: 3.0
+      range:
+        - low: 0.0
+        - high: 10.0

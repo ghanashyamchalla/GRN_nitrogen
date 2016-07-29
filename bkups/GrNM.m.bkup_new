@@ -1,0 +1,21 @@
+% Author Venkatraman Srinivasan
+% Edited: Stuti
+function GrNM (InputFile,OutputFile)
+
+    addpath(genpath('./'));
+
+    InputFileID = fopen(InputFile);
+
+    StaticFileID1 = fopen('Input/GrNM_static1.mat');
+    StaticFileID2 = fopen('Input/GrNM_static2.mat');
+
+    global OUTPUT
+    GrNM_model(InputFileID, StaticFileID1, StaticFileID2, 'GrNM_output');
+    outdata = OUTPUT{1,1};
+
+    OutputFileID = fopen(OutputFile, 'w');
+    formatSpec_out = '%+.6f\t%+.6f\t%+.6f\t%+.6f\t%+.6f\t%+.6f\t%+.6f\t%+.6f\t%+.6f\t%+.6f\t%+.6f\t%+.6f\t%+.6f\t%+.6f\n';
+    fprintf(OutputFileID, formatSpec_out, outdata);
+    fclose(OutputFileID);
+
+end
