@@ -1,11 +1,13 @@
 % Leave-out-last analysis, 76 genes, RMA data
 % gradient state-space optimization of kinetic equation, linear dynamics
 % no data normalization
-
+ko_genes{1} = 0;
 % Load the 76-gene MAS5 dataset
 for k = 1:length(varargin{1})
-    if find(strcmp(varargin{1}{k}, 'gene_dataset_filename'))
+    if strcmp(varargin{1}{k}, 'gene_dataset_filename')
         gene_dataset_filename = varargin{1}{k+1};
+    elseif strcmp(varargin{1}{k}, 'ko')
+        ko_genes = varargin{1}{k+1};
     end
 end
 

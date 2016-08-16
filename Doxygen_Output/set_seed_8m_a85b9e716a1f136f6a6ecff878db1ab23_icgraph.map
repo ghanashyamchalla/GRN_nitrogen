@@ -1,0 +1,11 @@
+<map id="setSeed" name="setSeed">
+<area shape="rect" id="node2" href="$_kfold_8m.html#a2b921be1a9bbabe6f036f71d7f7b1c6f" title="Kfold Compute indices for K&#45;fold cross validaiton N = num data K = num folds, if K=&#45;1, use leave&#45;one&#45;out CV (same as setting K=N) [trainfolds{i}, testfolds{i}] = indices of i&#39;th fold If randomize = 1, we shuffle the indices first (sets RNG seed to 0) " alt="" coords="126,31,178,57"/>
+<area shape="rect" id="node3" href="$bolasso_8m.html#aae01ad4bcaffbee59e36f14aafb772e8" title="bolasso" alt="" coords="227,31,295,57"/>
+<area shape="rect" id="node4" href="$bolasso_simple_demo_8m.html#a8095a7b527164425a28e3823e1084806" title="bolassoSimpleDemo" alt="" coords="368,5,512,32"/>
+<area shape="rect" id="node5" href="$_d_f_g___dynamics___a_r1___lasso_8m.html#a5ed2982454f975742428a445ea33cae2" title="DFG_Dynamics_AR1_Lasso" alt="" coords="344,56,536,83"/>
+<area shape="rect" id="node6" href="$_d_f_g___learn_8m.html#a9941fb86261b31e07cc07d4e078a4276" title="DFG_Learn" alt="" coords="585,56,677,83"/>
+<area shape="rect" id="node7" href="$_g_r_n___batch___a_r1_8m.html#a1138195738f90fc13f71fded268a668e" title="GRN_Batch_AR1" alt="" coords="747,31,874,57"/>
+<area shape="rect" id="node10" href="$_g_r_n___batch___arabidopsis_8m.html#a91c9fb789bdde88a4c20bc2757d1afda" title="GRN_Batch_Arabidopsis" alt="" coords="725,81,896,108"/>
+<area shape="rect" id="node8" href="$_g_r_n___batch___multi_model___a_r1_8m.html#ab5e6379ab417722368ede32b5658e085" title="GRN_Batch_MultiModel_AR1" alt="" coords="945,31,1143,57"/>
+<area shape="rect" id="node9" href="$_gr_n_m__model_8m.html#a42c0a74b67fe16b9856441def26e928b" title="GrNM_model" alt="" coords="1192,31,1293,57"/>
+</map>

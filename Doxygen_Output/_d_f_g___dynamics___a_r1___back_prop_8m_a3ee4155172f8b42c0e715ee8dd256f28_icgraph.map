@@ -1,0 +1,10 @@
+<map id="DFG_Dynamics_AR1_BackProp" name="DFG_Dynamics_AR1_BackProp">
+<area shape="rect" id="node2" href="$_d_f_g___dynamics___a_r1___m_step_8m.html#a9d76d3494d10413c2e566343cae282c4" title="DFG_Dynamics_AR1_MStep" alt="" coords="270,31,466,57"/>
+<area shape="rect" id="node8" href="$_d_f_g___infer_8m.html#af4c365fc7c40fdcbc8c4b29b1c5d64f5" title="DFG_Infer" alt="" coords="326,81,410,108"/>
+<area shape="rect" id="node3" href="$_d_f_g___learn_8m.html#a9941fb86261b31e07cc07d4e078a4276" title="DFG_Learn" alt="" coords="583,31,675,57"/>
+<area shape="rect" id="node4" href="$_g_r_n___batch___arabidopsis_8m.html#a91c9fb789bdde88a4c20bc2757d1afda" title="GRN_Batch_Arabidopsis" alt="" coords="792,5,963,32"/>
+<area shape="rect" id="node5" href="$_g_r_n___batch___a_r1_8m.html#a1138195738f90fc13f71fded268a668e" title="GRN_Batch_AR1" alt="" coords="814,56,941,83"/>
+<area shape="rect" id="node6" href="$_g_r_n___batch___multi_model___a_r1_8m.html#ab5e6379ab417722368ede32b5658e085" title="GRN_Batch_MultiModel_AR1" alt="" coords="1011,56,1210,83"/>
+<area shape="rect" id="node7" href="$_gr_n_m__model_8m.html#a42c0a74b67fe16b9856441def26e928b" title="GrNM_model" alt="" coords="1259,56,1360,83"/>
+<area shape="rect" id="node9" href="$_g_r_n___evaluate_models___a_r1_8m.html#ad97ce86adc71f367d2bfed5a732aa02c" title="mtoc_subst_GRN_EvaluateModels\l_AR1_m_tsbus_cotm_Evaluate" alt="" coords="515,82,744,123"/>
+</map>
