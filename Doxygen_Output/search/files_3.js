@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['grn_5fanalyzenets_2em',['GRN_AnalyzeNets.m',['../_g_r_n___analyze_nets_8m.html',1,'']]],
+  ['grn_5faveragemodel_5far1_2em',['GRN_AverageModel_AR1.m',['../_g_r_n___average_model___a_r1_8m.html',1,'']]],
+  ['grn_5fbatch_5far1_2em',['GRN_Batch_AR1.m',['../_g_r_n___batch___a_r1_8m.html',1,'']]],
+  ['grn_5fbatch_5farabidopsis_2em',['GRN_Batch_Arabidopsis.m',['../_g_r_n___batch___arabidopsis_8m.html',1,'']]],
+  ['grn_5fbatch_5fmultimodel_5far1_2em',['GRN_Batch_MultiModel_AR1.m',['../_g_r_n___batch___multi_model___a_r1_8m.html',1,'']]],
+  ['grn_5fcomparenets_2em',['GRN_CompareNets.m',['../_g_r_n___compare_nets_8m.html',1,'']]],
+  ['grn_5fcreatecombinations_2em',['GRN_CreateCombinations.m',['../_g_r_n___create_combinations_8m.html',1,'']]],
+  ['grn_5fevaluatemodels_5far1_2em',['GRN_EvaluateModels_AR1.m',['../_g_r_n___evaluate_models___a_r1_8m.html',1,'']]],
+  ['grn_5fnormalize_2em',['GRN_Normalize.m',['../_g_r_n___normalize_8m.html',1,'']]],
+  ['grn_5fplot_2em',['GRN_Plot.m',['../_g_r_n___plot_8m.html',1,'']]],
+  ['grn_5fpredictedplot_2em',['GRN_PredictedPlot.m',['../_g_r_n___predicted_plot_8m.html',1,'']]],
+  ['grn_5freaddatafile_2em',['GRN_readDatafile.m',['../_g_r_n__read_datafile_8m.html',1,'']]],
+  ['grn_5fsaveresultstext_2em',['GRN_SaveResultsText.m',['../_g_r_n___save_results_text_8m.html',1,'']]],
+  ['grn_5fscramblemat_2em',['GRN_ScrambleMat.m',['../_g_r_n___scramble_mat_8m.html',1,'']]],
+  ['grn_5fstatisticallysignificantlinks_2em',['GRN_StatisticallySignificantLinks.m',['../_g_r_n___statistically_significant_links_8m.html',1,'']]],
+  ['grn_5ftopgenes_2em',['GRN_TopGenes.m',['../_g_r_n___top_genes_8m.html',1,'']]],
+  ['grnm_5fmodel_2em',['GrNM_model.m',['../_gr_n_m__model_8m.html',1,'']]]
+];

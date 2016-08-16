@@ -1,0 +1,26 @@
+var dir_b43c1cc30c1f826a37535e04f1352caf =
+[
+    [ "bolasso.m", "bolasso_8m.html", "bolasso_8m" ],
+    [ "bolassoSimpleDemo.m", "bolasso_simple_demo_8m.html", "bolasso_simple_demo_8m" ],
+    [ "center.m", "center_8m.html", "center_8m" ],
+    [ "cholcov.m", "cholcov_8m.html", "cholcov_8m" ],
+    [ "corrcov.m", "corrcov_8m.html", "corrcov_8m" ],
+    [ "crossvalidateBL.m", "crossvalidate_b_l_8m.html", "crossvalidate_b_l_8m" ],
+    [ "cvplot.m", "cvplot_8m.html", "cvplot_8m" ],
+    [ "Kfold.m", "_kfold_8m.html", "_kfold_8m" ],
+    [ "lars.m", "lars_8m.html", "lars_8m" ],
+    [ "lars_test.m", "lars__test_8m.html", "lars__test_8m" ],
+    [ "larsen.m", "larsen_8m.html", "larsen_8m" ],
+    [ "larsen_test.m", "larsen__test_8m.html", "larsen__test_8m" ],
+    [ "larsFast.m", "lars_fast_8m.html", "lars_fast_8m" ],
+    [ "mvnrnd.m", "mvnrnd_8m.html", "mvnrnd_8m" ],
+    [ "normalize.m", "normalize_8m.html", "normalize_8m" ],
+    [ "normrnd.m", "normrnd_8m.html", "normrnd_8m" ],
+    [ "process_options.m", "process__options_8m.html", "process__options_8m" ],
+    [ "restoreSeed.m", "restore_seed_8m.html", "restore_seed_8m" ],
+    [ "setSeed.m", "set_seed_8m.html", "set_seed_8m" ],
+    [ "spca.m", "spca_8m.html", "spca_8m" ],
+    [ "spca_test.m", "spca__test_8m.html", "spca__test_8m" ],
+    [ "standardize.m", "standardize_8m.html", "standardize_8m" ],
+    [ "synthesizeData.m", "synthesize_data_8m.html", "synthesize_data_8m" ]
+];
