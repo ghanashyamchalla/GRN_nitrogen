@@ -1,9 +1,3 @@
-P = py.sys.path;
-pp = strcat(fileparts(fileparts(fileparts(pwd))), '/interface');
-if count(P,pp) == 0
-    insert(P,int32(0),pp);
-end
-
 import PsiInterface.*
 
 addpath (genpath ('./'));

@@ -3,23 +3,23 @@
 model:
   - name: GrNM
     driver: ModelDriver
-    args: 
+    args:
       - matlab
-      - GrNM.m
+      - -nodisplay 
+      - -nosplash 
+      - -nodesktop 
+      - -r
+      - run ('GrNM.m');
 
 inputs:
-  - name: GrNM_input1
-    driver: FileInputDriver
-    args: Input/GrNM_input.txt
+  - name: GrNM_Input1
+    driver: RMQInputDriver
+    args: ./Input/GrNM_input.txt
   - name: GrNM_static1
     driver: FileInputDriver
-    args: Input/GrNM_static1.mat
-  - name: GrNM_static2
-    driver: FileInputDriver
-    args: Input/GrNM_static2.mat
-
+    args: ./Input/GrNM_static.txt
 
 outputs:
   - name: GrNM_output
-    driver: FileOutputDriver
-    args: Output/GrNM_output.txt
+    driver: RMQOutputDriver
+    args: ./Output/GrNM_output.txt
