@@ -9,17 +9,17 @@ model:
       - -nosplash 
       - -nodesktop 
       - -r
-      - run ('GrNM.m');
+      - run ('GrNM.m')
 
 inputs:
-  - name: GrNM_Input1
-    driver: RMQInputDriver
+  - name: GrNM_input
+    driver: FileInputDriver
     args: ./Input/GrNM_input.txt
-  - name: GrNM_static1
+  - name: GrNM_static
     driver: FileInputDriver
     args: ./Input/GrNM_static.txt
 
 outputs:
   - name: GrNM_output
-    driver: RMQOutputDriver
+    driver: FileOutputDriver
     args: ./Output/GrNM_output.txt

@@ -2,7 +2,7 @@ import PsiInterface.*
 
 addpath (genpath ('./'));
 
-    in = py.PsiInterface.PsiInput('GrNM_input1');
+    in = py.PsiInterface.PsiInput('GrNM_input');
     st = py.PsiInterface.PsiInput('GrNM_static');
     out = py.PsiInterface.PsiOutput('GrNM_output');
 
