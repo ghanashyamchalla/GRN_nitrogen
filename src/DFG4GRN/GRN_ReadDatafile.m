@@ -1,5 +1,5 @@
 function [dataKCL1, dataKCL2, dataKNO31, dataKNO32, dataKnown, deltaT, ...
-        nComb, KCl, KNO3, geneNames, TFNames, nonTFNames] = GRN_readDatafile(filedata)
+        nComb, KCl, KNO3, geneNames, TFNames, nonTFNames] = GRN_ReadDatafile(filedata)
     
     % Save all data as columns and rows
     all_rows = strsplit(filedata, '\r');

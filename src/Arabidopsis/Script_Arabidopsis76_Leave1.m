@@ -12,7 +12,7 @@ end
 
 [dataKCL1, dataKCL2, dataKNO31, dataKNO32, dataKnown, deltaT, nComb, ...
     KCl, KNO3, geneNames, TFNames, nonTFNames] = ...
-    GRN_readDatafile(gene_dataset_filename);
+    GRN_ReadDatafile(gene_dataset_filename);
 
 if exist('TFNames', 'var')
     [~,sz_tfs] = size(TFNames);
