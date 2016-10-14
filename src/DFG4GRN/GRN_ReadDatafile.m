@@ -3,6 +3,9 @@ function [dataKCL1, dataKCL2, dataKNO31, dataKNO32, dataKnown, deltaT, ...
     
     % Save all data as columns and rows
     all_rows = strsplit(filedata, '\r');
+    if (length(all_rows) == 1)
+        all_rows = strsplit(filedata, '\n');
+    end
     header_row = strsplit(all_rows{1}, '\t');
     nCols = length(header_row);
     nRows = length(all_rows);
