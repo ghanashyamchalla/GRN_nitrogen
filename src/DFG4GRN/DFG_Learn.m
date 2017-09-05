@@ -94,7 +94,11 @@ end
 % Parameters
 n_epochs = params.n_epochs;
 eta_w = params.eta_w;
+
+
+% make decy a vector
 eta_w_decay = params.eta_w_decay;
+
 eta_z = params.eta_z;
 eta_z_decay = params.eta_z_decay;
 gamma = params.gamma;
