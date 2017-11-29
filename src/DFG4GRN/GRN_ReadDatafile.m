@@ -17,13 +17,18 @@ function [dataKCL1, dataKCL2, dataKNO31, dataKNO32, dataKnown, deltaT, ...
     end
      
     geneNames = static_data(2:nRows,1);
-    TFNames = geneNames(2:(nRows-1),1)';
-    nonTFNames = geneNames(1,1)';
+    TFNames = geneNames(1:(nRows-3),1)';
+    nonTFNames = geneNames((nRows-2):(nRows-1),1)';
     
-    KCl1_index = 2:2:(nCols+3)/2;
-    KCl2_index = 3:2:(nCols+3)/2;
-    KNO31_index = [2 (nCols+5)/2:2:nCols];
-    KNO32_index = [3 (nCols+7)/2:2:nCols];
+%     KCl1_index = 2:2:(nCols+3)/2;
+%     KCl2_index = 3:2:(nCols+3)/2;
+%     KNO31_index = [2 (nCols+5)/2:2:nCols];
+%     KNO32_index = [3 (nCols+7)/2:2:nCols];
+    
+    KCl1_index = 2:8;
+    KCl2_index = 9:15;
+    KNO31_index = 16:22;
+    KNO32_index = 23:29;
     
     dataKCL1 = cellfun(@str2num, static_data(2:nRows,KCl1_index));
     dataKCL2 = cellfun(@str2num, static_data(2:nRows,KCl2_index));
