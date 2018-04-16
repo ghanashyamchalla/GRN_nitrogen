@@ -1,0 +1,7 @@
+<map id="DFG_Model_RetrieveBest" name="DFG_Model_RetrieveBest">
+<area shape="rect" id="node2" href="$_d_f_g___learn_8m.html#a9941fb86261b31e07cc07d4e078a4276" title="DFG_Learn" alt="" coords="233,31,325,57"/>
+<area shape="rect" id="node3" href="$_g_r_n___batch___a_r1_8m.html#a1138195738f90fc13f71fded268a668e" title="GRN_Batch_AR1" alt="" coords="395,5,522,32"/>
+<area shape="rect" id="node6" href="$_g_r_n___batch___arabidopsis_8m.html#a91c9fb789bdde88a4c20bc2757d1afda" title="GRN_Batch_Arabidopsis" alt="" coords="373,56,544,83"/>
+<area shape="rect" id="node4" href="$_g_r_n___batch___multi_model___a_r1_8m.html#ab5e6379ab417722368ede32b5658e085" title="GRN_Batch_MultiModel_AR1" alt="" coords="593,5,791,32"/>
+<area shape="rect" id="node5" href="$_gr_n_m__model_8m.html#a42c0a74b67fe16b9856441def26e928b" title="GrNM_model" alt="" coords="840,5,941,32"/>
+</map>

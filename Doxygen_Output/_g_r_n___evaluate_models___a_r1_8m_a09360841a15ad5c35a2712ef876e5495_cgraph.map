@@ -1,0 +1,13 @@
+<map id="GRN_EvaluateModels_AR1" name="GRN_EvaluateModels_AR1">
+<area shape="rect" id="node2" href="$_d_f_g___data___mean_signal_8m.html#a1bdec7dec6fc160857d7cf05a4eb2063" title="DFG_Data_MeanSignal" alt="" coords="255,5,419,32"/>
+<area shape="rect" id="node3" href="$_d_f_g___dynamics___a_r1___distrib_delta_8m.html#a1ab58f29f31ff71ad0d0b9addf22100c" title="DFG_Dynamics_AR1_Distrib\lDelta" alt="" coords="240,57,435,98"/>
+<area shape="rect" id="node5" href="$_d_f_g___init_octave_8m.html#a45e166c3501e0a07bbb061c575252571" title="DFG_InitOctave" alt="" coords="279,123,396,149"/>
+<area shape="rect" id="node6" href="$_d_f_g___params___modify_8m.html#ab99f6f3cb2f3a89da2600e830a2081c9" title="DFG_Params_Modify" alt="" coords="262,173,413,200"/>
+<area shape="rect" id="node7" href="$_d_f_g___trace___a_r1___id_8m.html#a1a6debd467441650fa68569eef241ac6" title="DFG_Trace_AR1_Id" alt="" coords="265,224,409,251"/>
+<area shape="rect" id="node8" href="$_g_r_n___average_model___a_r1_8m.html#aabaed6201feead20c7e584f995b97e42" title="GRN_AverageModel_AR1" alt="" coords="248,275,427,301"/>
+<area shape="rect" id="node11" href="$_g_r_n___normalize_8m.html#a9c8aa1d2cd4385ca8021df82c9e8bc78" title="GRN_Normalize" alt="" coords="278,325,397,352"/>
+<area shape="rect" id="node12" href="$_g_r_n___plot_8m.html#a77b013e4a40bee67626a9d32f48b815b" title="GRN_Plot" alt="" coords="296,376,379,403"/>
+<area shape="rect" id="node4" href="$_d_f_g___dynamics___a_r1___compute_kinetic_coeff_8m.html#a84f86ce058fee4a2f877c88c31f1cf4a" title="DFG_Dynamics_AR1_Compute\lKineticCoeff" alt="" coords="483,57,693,98"/>
+<area shape="rect" id="node9" href="$_g_r_n___statistically_significant_links_8m.html#afcce36d791aa359f2009fad84c372b4e" title="GRN_StatisticallySignificant\lLinks" alt="" coords="495,267,681,309"/>
+<area shape="rect" id="node10" href="$_g_r_n___scramble_mat_8m.html#a832fb7b5217fdbf51d01a8b60823a1f1" title="GRN_ScrambleMat" alt="" coords="742,275,879,301"/>
+</map>

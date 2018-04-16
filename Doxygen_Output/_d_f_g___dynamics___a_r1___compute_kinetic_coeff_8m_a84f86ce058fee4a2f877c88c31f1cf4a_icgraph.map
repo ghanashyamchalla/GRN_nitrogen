@@ -1,0 +1,13 @@
+<map id="DFG_Dynamics_AR1_ComputeKineticCoeff" name="DFG_Dynamics_AR1_ComputeKineticCoeff">
+<area shape="rect" id="node2" href="$_d_f_g___dynamics___a_r1___distrib_delta_8m.html#a1ab58f29f31ff71ad0d0b9addf22100c" title="DFG_Dynamics_AR1_Distrib\lDelta" alt="" coords="265,19,460,61"/>
+<area shape="rect" id="node9" href="$_d_f_g___dynamics___a_r1___lasso_8m.html#a5ed2982454f975742428a445ea33cae2" title="DFG_Dynamics_AR1_Lasso" alt="" coords="267,85,459,112"/>
+<area shape="rect" id="node10" href="$_d_f_g___dynamics___a_r1___m_step_8m.html#a9d76d3494d10413c2e566343cae282c4" title="DFG_Dynamics_AR1_MStep" alt="" coords="265,136,461,163"/>
+<area shape="rect" id="node11" href="$_d_f_g___infer_8m.html#af4c365fc7c40fdcbc8c4b29b1c5d64f5" title="DFG_Infer" alt="" coords="321,187,405,213"/>
+<area shape="rect" id="node3" href="$_g_r_n___batch___arabidopsis_8m.html#a91c9fb789bdde88a4c20bc2757d1afda" title="GRN_Batch_Arabidopsis" alt="" coords="795,56,965,83"/>
+<area shape="rect" id="node4" href="$_d_f_g___learn_8m.html#a9941fb86261b31e07cc07d4e078a4276" title="DFG_Learn" alt="" coords="578,107,670,133"/>
+<area shape="rect" id="node8" href="$_g_r_n___evaluate_models___a_r1_8m.html#a09360841a15ad5c35a2712ef876e5495" title="GRN_EvaluateModels_AR1" alt="" coords="787,5,973,32"/>
+<area shape="rect" id="node5" href="$_g_r_n___batch___a_r1_8m.html#a1138195738f90fc13f71fded268a668e" title="GRN_Batch_AR1" alt="" coords="817,107,943,133"/>
+<area shape="rect" id="node6" href="$_g_r_n___batch___multi_model___a_r1_8m.html#ab5e6379ab417722368ede32b5658e085" title="GRN_Batch_MultiModel_AR1" alt="" coords="1022,56,1221,83"/>
+<area shape="rect" id="node7" href="$_gr_n_m__model_8m.html#a42c0a74b67fe16b9856441def26e928b" title="GrNM_model" alt="" coords="1269,56,1371,83"/>
+<area shape="rect" id="node12" href="$_g_r_n___evaluate_models___a_r1_8m.html#ad97ce86adc71f367d2bfed5a732aa02c" title="mtoc_subst_GRN_EvaluateModels\l_AR1_m_tsbus_cotm_Evaluate" alt="" coords="509,179,739,221"/>
+</map>
