@@ -2,24 +2,10 @@
 
 model:
   - name: GrNM
-    driver: ModelDriver
-    args:
-      - matlab
-      - -nodisplay 
-      - -nosplash 
-      - -nodesktop 
-      - -r
-      - run ('GrNM.m')
-
-inputs:
-  - name: GrNM_input
-    driver: FileInputDriver
-    args: ./Input/GrNM_input.txt
-  - name: GrNM_static
-    driver: FileInputDriver
-    args: ./Input/GrNM_static.txt
-
-outputs:
-  - name: GrNM_output
-    driver: FileOutputDriver
-    args: ./Output/GrNM_output.txt
+    driver: MatlabModelDriver
+    args: ./src/GrNM.m
+    inputs:
+      - GrNM_input
+      - GrNM_static
+    outputs:
+      - GrNM_output
