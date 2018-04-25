@@ -109,10 +109,10 @@ len_total = 0;
 n_seq = length(y);
 for j = 1:n_seq
   len_seq = size(y{j}, 2);
-  plot(len_total + [1:len_seq], y{j}(14,:)', 'b', ...
-    len_total + [1:len_seq], zStar{j}(14,:)', 'r');
+  plot(len_total + [1:len_seq], y{j}(j,:)', 'b', ...
+    len_total + [1:len_seq], zStar{j}(j,:)', 'r');
   for i = 1:(len_seq-1)
-    plot(len_total + [i (i+1)], [y{j}(14, i) zStarOut{j}(14, i)], 'g');
+    plot(len_total + [i (i+1)], [y{j}(j, i) zStarOut{j}(j, i)], 'g');
   end
   len_total = len_total + len_seq;
 end
