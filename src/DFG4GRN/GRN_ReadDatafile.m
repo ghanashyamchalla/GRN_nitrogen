@@ -17,8 +17,8 @@ function [dataKCL1, dataKCL2, dataKNO31, dataKNO32, dataKnown, deltaT, ...
     end
      
     geneNames = static_data(2:nRows,1);
-    TFNames = geneNames(1:(nRows-3),1)';
-    nonTFNames = geneNames((nRows-2):(nRows-1),1)';
+    TFNames = geneNames(1:(nRows-2),1)';
+    nonTFNames = geneNames((nRows-1),1)';
     
 %     KCl1_index = 2:2:(nCols+3)/2;
 %     KCl2_index = 3:2:(nCols+3)/2;

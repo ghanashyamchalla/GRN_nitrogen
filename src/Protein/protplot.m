@@ -1,11 +1,13 @@
 % Keep in mind that Pr=P(1).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-P0=0.1;
-Tend=60;
+P0=1;
+Tend=40;
 
 tspan = [0, Tend];
-rArray = zeros(size(data_KNO31));
+rArray = [774.17 1292.23];
 [s1,s2] = size(rArray);
+
+d=1*10^(-6);
 
 % for i = 1:s1
 %     for j = 1:s2
@@ -13,12 +15,12 @@ rArray = zeros(size(data_KNO31));
 %     end
 % end
 
-rArray = cat(2, mean(cat(2,data_KNO31(:,1),data_KNO32(:,1)),2), ...
-mean(cat(2,data_KNO31(:,7),data_KNO32(:,7)),2));
+% rArray = cat(2, mean(cat(2,data_KNO31(:,1),data_KNO32(:,1)),2), ...
+% mean(cat(2,data_KNO31(:,7),data_KNO32(:,7)),2));
 
 % d = 1.75*10^3; % 1.5 for m=1 and 2.1 for m =0.5
 % d = max(max(rArray))*2;
-d = 3.32;
+% d = 3.32;
 
 % % To get all plots with same Y axis, run the model on max value
 % max_mn=max(max(rArray));
@@ -53,7 +55,7 @@ for i=1:s1
         protein_levels{:,j} = P;
         h1 = plot(T,P);
         set(h1, 'linewidth',1.25);
-        title(geneNames{i});
+        title('CIPK23');
         
         legend_plot{j} = num2str(n_levels(j,:));
         fprintf('d = %s\tm = %s\n', num2str(d), num2str(mn));
@@ -91,7 +93,7 @@ for j=1:2
     protein_levels{:,j} = P;
     h1 = plot(T,P);
     set(h1, 'linewidth',1.25);
-    title(geneNames{14});
+    title('CIPK23');
     
     legend_plot{j} = num2str(n_levels(j,:));
     fprintf('d = %s\tm = %s\n', num2str(d), num2str(mn));

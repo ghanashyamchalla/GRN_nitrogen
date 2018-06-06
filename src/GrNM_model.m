@@ -19,7 +19,7 @@ function GrNM_model (Input, Static)
         if strcmp(params_data{k}, 'n_models')
             n_models = params_data{k+1};
         else
-            n_models = 2;
+            n_models = 10;
         end
         if strcmp(params_data{k}, 'script_name')
             script_name = params_data{k+1};
@@ -49,8 +49,8 @@ function GrNM_model (Input, Static)
     % Learn multiple models
     GRN_Batch_MultiModel_AR1(n_models, script_name, ...
         'gene_dataset_filename', static_file, ...
-        'n_steps_display', 0, ...
-        'verbosity_level', 0, ...
+        'n_steps_display', 10, ...
+        'verbosity_level', 3, ...
         'tau', tau_val, ...             % Kinetic time coefficient
         'gamma', gamma_val, ...         % Weight of the dynamic error
         'lambda_w', lambda_val);        % L-1 regularization coefficient
