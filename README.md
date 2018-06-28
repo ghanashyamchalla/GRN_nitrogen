@@ -1,4 +1,4 @@
-# FakeModel
+# Gene Regulatory Network Model with SSM
 
 ## Model Description
 The cellular level model focuses on the gene expression profiles and the interactions between various genes. The aim is to analyze genes and generate a dynamic network model.
