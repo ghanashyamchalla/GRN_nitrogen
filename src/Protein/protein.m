@@ -1,8 +1,8 @@
 function Pprime = protein(T, P, r, d)
 
 % model parameters (taken from page 9 of the report, when available)
-L=0.04;   % Protein synthesis rate as % of 100%; 0.040 from other paper
-U=0.028;   % Protein degradation rate as % of 100%; 0.028 from other paper
+L=0.4/24;   % Protein synthesis rate as per min (0.4 per day) Li et al 2012
+U=0.28/24;   % Protein degradation rate as per min (0.28 per day) Li et al 2012
 % d1= 0.01;      % effectiveness factor
 % r1=2;       % mRNA concentration
 % r = interp1(rt, r, t);

@@ -15,12 +15,10 @@ function GrNM_model (Input, Static)
     %> Learn multiple models
     GRN_Batch_MultiModel_AR1(n_models, script_name, ...
         'file_type', 1, ...         % 1 = string, 0 = filename
-        'ko', {0}, ...         % data row number for gene to knockout
         'gene_dataset_filename', Static, ...
         'tau', tau_val, ...         % Kinetic time coefficient
         'gamma', gamma_val, ...     % Weight of the dynamic error
         'lambda_w', lambda_val, ... % L-1 regularization coefficient
         'n_steps_display', 0, ...
         'verbosity_level', 0);
-
 end
