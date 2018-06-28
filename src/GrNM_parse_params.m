@@ -2,7 +2,7 @@
 function [n_conc, n_models, script, tau, gamma, lambda] = GrNM_parse_params(params_input)
 
   % Set default values
-  n_models = 2;
+  n_models = 10;
   script = 'Script_Arabidopsis76_Leave1_LARS';
   tau = 3;
   gamma = 0.1;
