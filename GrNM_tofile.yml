@@ -1,0 +1,11 @@
+---
+
+connections:
+  - input: ./Input/GrNM_input.txt
+    output: GrNM_input
+    read_meth: map
+  - input: ./Input/NRT1.1_GrNM_static.txt
+    output: GrNM_static
+  - input: GrNM_output
+    output: ./Output/GrNM_output_new.txt
+    write_meth: table_array

@@ -1,0 +1,6 @@
+<map id="synthesizeData" name="synthesizeData">
+<area shape="rect" id="node2" href="$corrcov_8m.html#adb4baa534c71faee3d13bf412febc62e" title="CORRCOV Compute correlation matrix from covariance matrix. R = CORRCOV(C) computes the correlation ma..." alt="" coords="171,5,237,32"/>
+<area shape="rect" id="node4" href="$mvnrnd_8m.html#a644f6317b6e0bb6adca0b8905576da98" title="MVNRND Random vectors from the multivariate normal distribution. R = MVNRND(MU,SIGMA) returns an N&#45;by..." alt="" coords="171,56,237,83"/>
+<area shape="rect" id="node5" href="$normrnd_8m.html#acd6f95eb9e3a808023466e7812a8984a" title="NORMRND Random arrays from the normal distribution. R = NORMRND(MU,SIGMA) returns an array of random ..." alt="" coords="168,107,240,133"/>
+<area shape="rect" id="node3" href="$cholcov_8m.html#a16fe8aa37cfdfc6d80966dd3e7e6d154" title="CHOLCOV Cholesky&#45;like decomposition for covariance matrix. T = CHOLCOV(SIGMA) computes T such that SI..." alt="" coords="288,31,355,57"/>
+</map>
