@@ -13,9 +13,9 @@ function [dataKCL1, dataKCL2, dataKNO31, dataKNO32, dataKnown, deltaT, ...
         static_data(k,:) = regexp(all_rows{k}, '\t', 'split');
     end
      
-    geneNames = static_data(2:15,1);
+    global geneNames = static_data(2:15,1);
     TFNames = geneNames(1:13,1)';
-    nonTFNames = geneNames(14,1)';
+    global nonTFNames = geneNames(14,1)';
     
     dataKCL1 = cellfun(@str2num, static_data(2:15,2:8));
     dataKCL2 = cellfun(@str2num, static_data(2:15,9:15));
@@ -25,7 +25,7 @@ function [dataKCL1, dataKCL2, dataKNO31, dataKNO32, dataKnown, deltaT, ...
     dataKnown = {logical(dataKCL1),logical(dataKCL2),logical(dataKNO31),logical(dataKNO32)};
     
     KCl = {dataKCL1; dataKCL1; dataKCL2; dataKCL2};
-    KNO3 = {dataKNO31; dataKNO31; dataKNO32; dataKNO32};
+    global KNO3 = {dataKNO31; dataKNO31; dataKNO32; dataKNO32};
     
     deltaT = [3,3,3,3,3,5];
     nComb = 4;

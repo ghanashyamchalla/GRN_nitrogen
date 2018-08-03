@@ -7,7 +7,6 @@
 function GrNM_model (Input, Static)
     
     addpath(genpath('./'));
-    addpath(genpath('./DFG4GRN/'));
     
     %> Read params file and call the model
     [n_conc, n_models, script_name, ...

@@ -13,7 +13,6 @@ if (~flag)
   error_code = -1;
 end;
 
-global OUTPUT;
 
 % Continue looping until no more input
 while(flag)
@@ -27,8 +26,9 @@ while(flag)
 
   % Run model
   GrNM_model(Input, Static);
-  outdata = OUTPUT{1,1};
-
+  outdata = DFG_parse_output();
+      
+  
   % Send output
   flag = out.send(outdata);
   if (~flag)
